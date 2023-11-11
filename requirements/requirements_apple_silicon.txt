@@ -5,3 +5,5 @@ tensorflow-metal>=0.6.0,<0.7.0
 # These next 2 should have been installed, but some users complain of errors
 decorator
 cloudpickle
+pytest
+pytest-cov
