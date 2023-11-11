@@ -159,7 +159,6 @@ jobs:
         run: pytest --cov=./lib --cov-report=xml -v tests
       - name: End to End Tests
         run: python tests/simple_tests.py
-
       - name: Upload coverage reports to Codecov with GitHub Action
         uses: codecov/codecov-action@v3      
         with:
